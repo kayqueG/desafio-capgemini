@@ -5,7 +5,6 @@ public class Questao2 {
 
 	public static void main(String[] args) {
 
-		// System.out.println(verificarMinDigitos("alo1"));
 		Scanner scan = new Scanner(System.in);
 		boolean senhaFraca = true;
 

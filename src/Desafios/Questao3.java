@@ -12,7 +12,6 @@ public class Questao3 {
 		String palavra = scan.nextLine();
 
 		ArrayList<String> anagramas = gerarAnagramas(palavra);
-		
 		contarAnagramas(anagramas);
 
 	}
