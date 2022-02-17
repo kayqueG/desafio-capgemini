@@ -1,4 +1,4 @@
-package Desafios;
+package Desafios.Questao2;
 
 import org.junit.Test;
 

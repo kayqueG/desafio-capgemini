@@ -1,4 +1,4 @@
-package Desafios;
+package Desafios.Questao3;
 import java.util.ArrayList;
 import java.util.Scanner;
 

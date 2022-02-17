@@ -1,4 +1,4 @@
-package Desafios;
+package Desafios.Questao1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
