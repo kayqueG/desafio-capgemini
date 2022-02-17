@@ -1,3 +1,4 @@
+package Desafios;
 import java.util.Scanner;
 
 public class Questao2 {
@@ -24,7 +25,7 @@ public class Questao2 {
 	}
 	
 	
-	public static void menu() {
+	public static String menu() {
 		
 		System.out.println(
 			"Digite sua senha contendo no minimo : \n"
@@ -33,6 +34,14 @@ public class Questao2 {
 				+ "1 letra em minúsculo\n"
 				+ "1 letra em maiúsculo\n"
 				+ "1 caractere especial !@#$%^&*()-+\n");
+		
+		
+		return "Digite sua senha contendo no minimo : \n"
+		+ "6 caracteres\n"
+		+ "1 digito\n"
+		+ "1 letra em minúsculo\n"
+		+ "1 letra em maiúsculo\n"
+		+ "1 caractere especial !@#$%^&*()-+\n";
 	}
 	
 	

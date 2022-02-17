@@ -1,3 +1,4 @@
+package Desafios;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,6 +12,7 @@ public class Questao3 {
 		String palavra = scan.nextLine();
 
 		ArrayList<String> anagramas = gerarAnagramas(palavra);
+		
 		contarAnagramas(anagramas);
 
 	}
@@ -39,9 +41,12 @@ public class Questao3 {
 
 	}
 
-	public static void contarAnagramas(ArrayList<String> anagramas) {
+	public static int contarAnagramas(ArrayList<String> anagramas) {
 
+		
 		System.out.println(anagramas.size());
+		
+		return anagramas.size();
 	}
 
 }
