@@ -71,6 +71,13 @@ A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fai] que estão
 
 Basta a clonar o repositório,abrir o projeto na IDE de preferência e executar o "run" na questão correspondente. O mesmo processo para rodar os testes, porém é necessário dar run com o Junit
 
+
+
+## Como acessar a documentação
+
+Para acessar a documentação, acesse a pasta doc e abra o arquivo index.html
+
+
 ## Tecnologias utilizadas
 
 Foram utilizadas as seguintes tecnologias:
