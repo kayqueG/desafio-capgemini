@@ -1,6 +1,11 @@
 package Desafios.Questao2;
 import java.util.Scanner;
 
+
+/**
+* @author Kayque Gonçalves
+* @version 1.0
+*/
 public class Questao2 {
 
 	public static void main(String[] args) {
@@ -24,6 +29,11 @@ public class Questao2 {
 	}
 	
 	
+	/**
+	* Retorna o menu
+	* 
+	* @return Menu para interação do usuário
+	*/
 	public static String menu() {
 		
 		System.out.println(
@@ -45,6 +55,12 @@ public class Questao2 {
 	
 	
 
+	/**
+	* Valida se a senha do usuario for forte
+	* @param senha senha do usuário
+	* 
+	* @return true se a senha for forte
+	*/
 	public static boolean validarSenha( String senha) {
 		
 		if (verificarMinCaracteres(senha) && 
@@ -60,6 +76,13 @@ public class Questao2 {
 			
 	}
 
+	
+	/**
+	* Verifica se a senha tem pelo menos 6 caracteres
+	* @param senha senha do usuario
+	* 
+	* @return true se a senha tem pelo menos 6 caracteres
+	*/
 	public static boolean verificarMinCaracteres(String senha) {
 
 		if (senha.length() >= 6) {
@@ -73,6 +96,13 @@ public class Questao2 {
 
 	}
 
+	
+	/**
+	* Verifica se a senha tem pelo menos 1 digito
+	* @param senha senha do usuario
+	* 
+	* @return true se a senha tem pelo menos 1 digito
+	*/
 	public static boolean verificarMinDigitos(String senha) {
 
 		char[] senhaArray = senha.toCharArray();
@@ -88,6 +118,13 @@ public class Questao2 {
 
 	}
 
+	
+	/**
+	* Verifica se a senha tem pelo menos 1 letra minuscula
+	* @param senha senha do usuario
+	* 
+	* @return true se a senha tem pelo menos 1 letra minuscula
+	*/
 	public static boolean verificarMinMinusculo(String senha) {
 
 		char[] senhaArray = senha.toCharArray();
@@ -103,6 +140,13 @@ public class Questao2 {
 
 	}
 
+	
+	/**
+	* Verifica se a senha tem pelo menos 1 letra maiuscula
+	* @param senha senha do usuario
+	* 
+	* @return true se a senha tem pelo menos 1 letra maiuscula
+	*/
 	public static boolean verificarMinMaiusculo(String senha) {
 
 		char[] senhaArray = senha.toCharArray();
@@ -118,6 +162,12 @@ public class Questao2 {
 
 	}
 
+	/**
+	* Verifica se a senha tem pelo menos 1 caractere especial
+	* @param senha senha do usuario
+	* 
+	* @return true se a senha tem pelo menos 1 caractere especial
+	*/
 	public static boolean verificarEspeciais(String senha) {
 
 		char[] senhaArray = senha.toCharArray();

@@ -2,6 +2,11 @@ package Desafios.Questao3;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
+/**
+* @author Kayque Gonçalves
+* @version 1.0
+*/
 public class Questao3 {
 
 	public static void main(String[] args) {
@@ -15,7 +20,14 @@ public class Questao3 {
 		contarAnagramas(anagramas);
 
 	}
+	
 
+	/**
+	* Gera anagramas 
+	* @param palavra para geração de anagramas
+	* 
+	* @return Lista de anagramas da palavra
+	*/
 	public static ArrayList<String> gerarAnagramas(String palavra) {
 
 		ArrayList<String> anagramas = new ArrayList<String>();
@@ -40,6 +52,13 @@ public class Questao3 {
 
 	}
 
+	
+	/**
+	* Conta quantos anagramas tem na lista
+	* @param anagramas Lista de anagramas
+	* 
+	* @return quantidade de anagramas da lista
+	*/
 	public static int contarAnagramas(ArrayList<String> anagramas) {
 
 		

@@ -3,12 +3,21 @@ package Desafios.Questao1;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
+/**
+* @author Kayque Gonçalves
+* @version 1.0
+*/
 public class Questao1 {
 
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
 
+		
+		/**
+		* String que armazena os degraus
+		*/
 		String result = "";
 		
 		int n=0;
@@ -28,6 +37,15 @@ public class Questao1 {
 		gerarDegraus(n);
 
 	}
+	
+	
+
+	/**
+	* Retorna a escada
+	* @param n valor da base e a altura da escada
+	* 
+	* @return A escada
+	*/
 
 	public static String gerarDegraus(int n) {
 
